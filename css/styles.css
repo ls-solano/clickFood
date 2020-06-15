@@ -1,0 +1,185 @@
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Roboto:ital,wght@0,400;1,900&display=swap');
+    body{
+        font-family: 'Lato','Roboto', sans-serif;;
+    }
+    *{margin: 0; padding: 0; box-sizing: border-box;}
+  
+    .mainLogin{
+        width: 100vw;
+    }
+    .textoPrimario{
+        color: #b4280f;
+    }
+    .bg-primario{
+        background: #b4280f;
+        color: #fff;
+    }
+    /* ------------------- sección para el texto lado izquierdo ------------------------*/
+    .mainLogin  .text{
+        background: url('../img/hamburguesa.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        color: #fff;
+        padding-top: 55px;
+        padding-right: 35px;
+        width: 45%;
+
+    }
+    
+    .mainLogin .text .titulo h3{
+        font-size: 50px;
+        text-align: end;
+        font-weight: bolder;    
+        letter-spacing: 1px;
+        
+    }
+    .mainLogin .text .titulo h3:last-child{
+        font-weight: normal;
+    }
+    /* ------------------- fin sección para el texto lado izquierdo ------------------------*/
+    .mainLogin .contForm{
+        width: 55%;
+        height: 100vh;
+    }
+    .mainLogin .contForm .card{
+        width: 60%;
+        margin: 0 auto;
+    }
+  .mainLogin .text .atras a{
+    color: #fff;
+    text-decoration: none;
+
+  }
+  .mainLogin .contForm .card{
+    -webkit-box-shadow: 0px 6px 7px 1px rgba(204,204,204,1);
+    -moz-box-shadow: 0px 6px 7px 1px rgba(204,204,204,1);
+    box-shadow: 0px 6px 7px 1px rgba(204,204,204,1);
+  }
+  .mainLogin .contForm .card form div input{
+      background: rgb(231, 231, 231);
+      border: none;
+  }
+  .mainLogin .contForm .card form button:hover{
+    color: #fff;
+    background:  #cb4730;
+
+  }
+  
+  
+.mainLogin  .contForm .card .botones {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mainLogin  .contForm .card .botones a{
+    display: inline-block;
+    padding: 5px 0px;
+    border-radius: 5px;
+    text-align: center;
+    width: 40%;
+    background: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(204,204,204,1);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(204,204,204,1);
+    box-shadow: 0px 3px 5px 0px rgba(204,204,204,1);
+}
+.mainLogin  .contForm .card .botones .fb{
+    color: #3b5998;
+}
+.mainLogin  .contForm .card h4{
+    font-size: 40px;
+    font-weight: normal;
+}
+.mainLogin  .contForm .card .botones .fb:hover{
+    background: #3b5998;
+    color: #fff;
+}
+.mainLogin  .contForm .card .botones .google:hover{
+    color: #fff;
+    background:#4285F4;
+}
+.mainLogin  .contForm .card .botones .google img{
+    width: 7%;
+}
+.mainLogin  .contForm .card .botones a:last-child{
+    margin-left: 5px;
+    
+}
+.mainLogin  .contForm .registro{
+    text-align: center;
+
+}
+
+.mainLogin  .contForm .registro a{
+    color: #cb4730;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.mainLogin  .contForm .registro a:hover{
+    color: #b4280f;
+}
+
+
+@media screen and (max-width: 950px) and (min-width:760px){
+    .mainLogin  .contForm .card .registrame{
+        font-size: 28px;
+    }
+}
+  @media screen and (max-width: 770px){
+    .mainLogin  .text{
+        width: 100%;
+        background: #b4280f;
+        color: #fff;
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+    .mainLogin .contForm{
+        width: 100%;
+        
+    }
+    .mainLogin .contForm .card form div input{
+      text-align: center;
+    }
+  
+    .mainLogin  .contForm .card .botones {
+    flex-direction: column;
+    }
+    .mainLogin  .contForm .card .botones a{
+        width: 100%;
+    }
+    .mainLogin  .contForm .card .botones a:last-child{
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+
+ 
+    .mainLogin .text .titulo h3{
+        font-size: 20px;
+        text-align: center;
+        font-weight: bolder;    
+        letter-spacing: 1px;
+        
+  }
+
+}
+
+
+@media screen and (max-width: 600px){
+    
+    .mainLogin .text .titulo{
+        padding: 10px;
+    }
+    .mainLogin  .contForm .card h4{
+        font-size: 25px;
+    }
+    
+  .mainLogin .contForm .card{
+        box-shadow: none;
+        width: 100%;
+        border: none;
+    }
+}
