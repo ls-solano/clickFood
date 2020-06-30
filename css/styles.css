@@ -94,8 +94,8 @@
         color: rgb(73, 73, 73);
     }
     .menufijomov div a .fas{
-        font-size: 20px;
-        padding:8px 10px 0px 5px;
+        font-size: 18px;
+        padding-top: 5px;
     }
    
 
@@ -238,7 +238,7 @@
   
 
     .contenedorSlideProductos{
-        padding: 20px;
+ 
         display: flex;
         align-items: center;
         justify-content: center;
@@ -247,15 +247,30 @@
         list-style: none;
     }
     .contenedorSlideProductos ul li .card{
+        width: 190px;
         border-radius: 10px;
-        -webkit-box-shadow: 0px 5px 10px -4px rgba(125,125,125,1);
-        -moz-box-shadow: 0px 5px 10px -4px rgba(125,125,125,1);
-        box-shadow: 0px 5px 10px -4px rgba(125,125,125,1);
+        -webkit-box-shadow: -1px 5px 10px -4px rgba(125,125,125,1);
+        -moz-box-shadow: -1px 5px 10px -4px rgba(125,125,125,1);
+        box-shadow: -1px 5px 10px -4px rgba(125,125,125,1);
     }
-    .estrellas .fas{
-        color: yellow;
+    
+    .contenedorSlideProductos ul li .card .card-body{
+        padding: 15px 20px 20px 20px;
     }
-
+    .contenedorSlideProductos ul li .card .card-body .card-title{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        display: inline-block;
+        width: 100%;
+        text-transform: uppercase;
+        margin:0;    }
+    .calificacion {
+        margin: 0 auto;
+        color: #ea7900
+    }
+    .contenedorSlideProductos ul li .card .card-body a{
+        padding:2px;
+    }
      /*
     ***************************************fin estilos del banner de productos**************************
     */
@@ -313,6 +328,11 @@
         text-align: center;
     }
 
+
+    
+    .contenedorSlideProductos{
+        width: 100%;
+    }
 }
 
 
