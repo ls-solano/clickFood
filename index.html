@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click  Food</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/lightslider.css">
+    <script src="https://kit.fontawesome.com/bcfa31ea5f.js" crossorigin="anonymous"></script>
+</head>
+
+<body >
+  <!--menus-->
+
+  <div class="sticky-top bg-dark">
+    <div class="bg-primario">
+      <section class="menu contenedor ">
+          <nav class="navPrincipal d-flex  py-2">
+              <div class="logobusqueda d-flex flex-column flex-md-row ">
+                  <div class="logo font-weight-bold pt-md-2 d-flex align-items-center justify-content-center">Click <span class="text-white">Food</span></div>
+              
+                  <div class="busqueda pr-2 d-flex align-items-center">
+                      <form class="d-flex my-2 ml-2 my-lg-0 px-2 bg-white">
+                          <input class="form-control mr-sm-2" type="search" placeholder="Comida, categoria, producto" aria-label="Search">
+                          <button class=" my-2 my-sm-0" type="submit"><span class="fas fa-search"></span><button>
+                      </form>
+                  </div>
+                 
+              </div>
+             
+              <div class="cuentacarrito  d-none  d-md-flex justify-content-around align-items-center"  id="collapsePerfil">
+              
+                  <div class="nav-item dropdown d-flex align-items-center">
+                      <a class="nav-link dropdown-toggle  text-white p-0 m-0 perfil" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <img src="img/perfil.jpeg" alt="">
+                        <span class="d-none d-md-inline-block" >Mi perfil</span> 
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Mis datos</a>
+                        <a class="dropdown-item" href="#">Mis compras</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Salir</a>
+                      </div>
+                  </div>
+                  <div class="">
+                      <a class="nav-link  text-white p-1 ml-md-2" href="#" id="navbarDropdown" 
+                      role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         <span class="fas fa-shopping-cart"></span> <span class="d-none d-lg-inline-block">Carrito</span>
+                      </a>
+                    
+                  </div>
+              </div>
+              
+          </nav>
+  
+          <div id="accordion">
+            <div id="collapseOne" class="collapse " aria-labelledby="collapsePerfil" data-parent="#accordion">
+              <div class="card-body d-flex  justify-content-center justify-content-md-around flex-wrap p-2">
+                <div class="px-3 py-2">
+                  <a class="text-white" href="#">Opcion 1</a>
+                </div>
+                <div class="px-3 py-2">
+                  <a class="text-white" href="#">Opcion 1</a>
+                </div>
+                <div class="px-3 py-2">
+                  <a class="text-white" href="#">Opcion 1</a>
+                </div>
+                <div class="px-3 py-2">
+                  <a class="text-white" href="#">Opcion 1</a>
+                </div>
+                <div class="px-3 py-2">
+                  <a class="text-white" href="#">Opcion 1</a>
+                </div>
+                <div class="px-3 py-2">
+                  <a class="text-white" href="#">Opcion 1</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+         
+  
+  
+      </section>
+     
+  </div>
+  <div class="bg-gris py-1 d-none d-md-block">
+  <section class="menu contenedor d-flex justify-content-between align-items-center flex-wrap ">
+      <div class="dropdown">
+        <a class="btn  dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="fas fa-utensils pr-1"></span>
+          Categorias
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <button class="dropdown-item" type="button">Restaurantes</button>
+          <button class="dropdown-item" type="button">Cenadurias</button>
+          <button class="dropdown-item" type="button">Pastelerias</button>
+        </div>
+      </div>
+    <div class="promociones">
+      <a href="#"> <span class="fas fa-certificate pr-1"></span> Promociones</a>
+    </div>
+    <div class="dropdown">
+      <a class="btn  dropdown-toggle pr-1" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="fas fa-store"></span>
+        Supermercado
+      </a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        
+        <button class="dropdown-item" type="button">Tiendas</button>
+        <button class="dropdown-item" type="button">Departamentales</button>
+        <button class="dropdown-item" type="button">Mercados</button>
+        <button class="dropdown-item" type="button">Farmacias</button>
+        <button class="dropdown-item" type="button">Papeleria</button>
+        <button class="dropdown-item" type="button">Veterinaria</button>
+      </div>
+    </div>
+  </section>
+  </div>
+  </div> 
+  
+  <!--fin de los menus-->
+  <!--cuerpo de la pagina-->
+  <div class="cuerpo">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="https://http2.mlstatic.com/optimize/o:f_webp/resources/deals/exhibitors_resources/mlm-home-desktop-slider-picture-8cd74f57-cf8e-486b-8fb0-6335453dcdda.jpg" alt="First slide">
+        </div>
+   
+      </div>
+    </div>
+
+    <!--seccion de los productos populares o más vendidos-->
+    <section class="populares">
+      <div class="tituloseccion d-flex justify-content-center pt-3 align-items-center  ">
+        
+        
+        <hr  style="background: gray;">
+        <h3 class="px-2">Populares</h3>
+        <hr  style="background: gray;">
+      </div>
+    
+      <!--inicion del carrusel-->
+    <div class="contenedorSlideProductos ">
+    
+    
+      <ul id="autoWidth" class="cs-hidden">
+
+         <!--cada li es un producto-->
+        <li class="item-a">
+          <div class="card my-3" style="width: 16rem;">
+            <img class="card-img-top" src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Hamburguesa doble</h5>
+              <div class="calificacion d-flex">
+                <span>5.0</span>
+                <div class="estrellas ml-2">
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                </div>
+              </div>
+              <strong> <span class="fas fa-store"></span> Tortas el puerco</strong>
+            
+              <p class="card-text">Hamburguesa doble más papas incluidas, queso y cebollas en aro crujientes</p>
+              <a href="#" class="btn btn-block bg-secundario">Comprar</a>
+            </div>
+          </div>
+        </li>
+
+
+
+        <li class="item-a">
+          <div class="card my-3" style="width: 16rem;">
+            <img class="card-img-top" src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Hamburguesa doble</h5>
+              <div class="calificacion d-flex">
+                <span>5.0</span>
+                <div class="estrellas ml-2">
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                </div>
+              </div>
+              <strong> <span class="fas fa-store"></span> Tortas el puerco</strong>
+            
+              <p class="card-text">Hamburguesa doble más papas incluidas, queso y cebollas en aro crujientes</p>
+              <a href="#" class="btn btn-block bg-secundario">Comprar</a>
+            </div>
+          </div>
+        </li>
+
+
+
+        <li class="item-a">
+          <div class="card my-3" style="width: 16rem;">
+            <img class="card-img-top" src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Hamburguesa doble</h5>
+              <div class="calificacion d-flex">
+                <span>5.0</span>
+                <div class="estrellas ml-2">
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                </div>
+              </div>
+              <strong> <span class="fas fa-store"></span> Tortas el puerco</strong>
+            
+              <p class="card-text">Hamburguesa doble más papas incluidas, queso y cebollas en aro crujientes</p>
+              <a href="#" class="btn btn-block bg-secundario">Comprar</a>
+            </div>
+          </div>
+        </li>
+
+
+
+        <li class="item-a">
+          <div class="card my-3" style="width: 16rem;">
+            <img class="card-img-top" src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Hamburguesa doble</h5>
+              <div class="calificacion d-flex">
+                <span>5.0</span>
+                <div class="estrellas ml-2">
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                </div>
+              </div>
+              <strong> <span class="fas fa-store"></span> Tortas el puerco</strong>
+            
+              <p class="card-text">Hamburguesa doble más papas incluidas, queso y cebollas en aro crujientes</p>
+              <a href="#" class="btn btn-block bg-secundario">Comprar</a>
+            </div>
+          </div>
+        </li>
+
+
+
+        <li class="item-a">
+          <div class="card my-3" style="width: 16rem;">
+            <img class="card-img-top" src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Hamburguesa doble</h5>
+              <div class="calificacion d-flex">
+                <span>5.0</span>
+                <div class="estrellas ml-2">
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                </div>
+              </div>
+              <strong> <span class="fas fa-store"></span> Tortas el puerco</strong>
+            
+              <p class="card-text">Hamburguesa doble más papas incluidas, queso y cebollas en aro crujientes</p>
+              <a href="#" class="btn btn-block bg-secundario">Comprar</a>
+            </div>
+          </div>
+        </li>
+
+
+
+        <li class="item-a">
+          <div class="card my-3" style="width: 16rem;">
+            <img class="card-img-top" src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Hamburguesa doble</h5>
+              <div class="calificacion d-flex">
+                <span>5.0</span>
+                <div class="estrellas ml-2">
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                </div>
+              </div>
+              <strong> <span class="fas fa-store"></span> Tortas el puerco</strong>
+            
+              <p class="card-text">Hamburguesa doble más papas incluidas, queso y cebollas en aro crujientes</p>
+              <a href="#" class="btn btn-block bg-secundario">Comprar</a>
+            </div>
+          </div>
+        </li>
+
+
+
+        <li class="item-a">
+          <div class="card my-3" style="width: 16rem;">
+            <img class="card-img-top" src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Hamburguesa doble</h5>
+              <div class="calificacion d-flex">
+                <span>5.0</span>
+                <div class="estrellas ml-2">
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                  <div class="fas fa-star"></div>
+                </div>
+              </div>
+              <strong> <span class="fas fa-store"></span> Tortas el puerco</strong>
+            
+              <p class="card-text">Hamburguesa doble más papas incluidas, queso y cebollas en aro crujientes</p>
+              <a href="#" class="btn btn-block bg-secundario">Comprar</a>
+            </div>
+          </div>
+        </li>
+
+
+       
+      </ul>
+    
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </section>
+
+
+
+  </div><!--cuerpo de la pagina-->
+
+
+<!--atajos solo en movil-->
+<div class="menufijomov fixed-bottom d-flex d-md-none justify-content-around bg-light py-2 px-2 ">
+  <div class="inicio">
+    <a href="#" class="inicio">
+      <span class="fas fa-home"></span><br> 
+      <span class="d-block"> Inicio</span>
+    </a>
+  </div>
+  
+
+  <div class="ofertas">
+    <a href="#">
+      <span class="fas fa-certificate pr-1"></span><br>
+      <span>Ofertas</span>
+    </a>
+  </div>
+  <div class="carrito">
+    <a href="#">
+      <span class="fas fa-shopping-cart"></span> <br>
+      <span>Carrito</span>
+    </a>
+  </div>
+  <div class="cuenta">
+    <a href="#">
+      <span class="fas fa-user"></span><br>
+      <span>Cuenta</span>
+    </a>
+  </div>
+</div><!--fin de atajos solo en movil-->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="js/lightslider.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

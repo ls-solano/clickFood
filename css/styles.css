@@ -14,6 +14,94 @@
         background: #b4280f;
         color: #fff;
     }
+    .bg-secundario{
+        background: #ea7900;
+        color: #fff; 
+    }
+    .bg-amarillo{
+        background: #ffcc00;
+    }
+    .textoAmarillo{
+        color: #ffcc00;
+    }
+   
+    .contenedor{
+        width: 90%;
+        margin:  0 auto;
+    }
+    .bg-gris{
+        background: rgb(236, 236, 236);
+    }  
+    .cuerpo{
+        margin-bottom: 100px;
+    }
+    /*
+    ***************************************estilos para el menu**************************
+    */
+  
+    .menu nav{
+        width: 100%;
+    }
+    .menu nav .logo{
+        color: lightgray;
+        font-size: 26px;
+    }
+    .menu nav .busqueda form{
+        border-radius: 10px;
+    }
+    .menu nav .busqueda,
+    .menu nav .busqueda form {
+        width:100%;
+    }
+    .menu nav .busqueda form input.form-control:focus{
+        outline:none !important;
+        outline-width: 0 !important;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    .menu nav .busqueda form button,.menu nav .busqueda form input{
+        border: none;
+        background: #fff;
+        color: #b4280f;
+    }
+    .menu nav .busqueda form input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        color: #b4280f;
+    }
+    /*perfil*/
+    .menu nav .logobusqueda{
+        width: 80%;
+    }
+    .menu nav .cuentacarrito{
+        width: 20%;
+    }
+    
+    .menu nav .cuentacarrito div a:hover{
+        cursor: pointer;
+    }
+    .menu nav .cuentacarrito div a  img{
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+    }
+
+    /*estilos para el menu fijo que solo aparece en movil*/
+    .menufijomov div{
+        text-align: center;
+    }
+    
+    .menufijomov div a {
+        color: rgb(73, 73, 73);
+    }
+    .menufijomov div a .fas{
+        font-size: 20px;
+        padding:8px 10px 0px 5px;
+    }
+   
+
+    /*
+    ***************************************estilos para el login y el registro**************************
+    */
     /* ------------------- sección para el texto lado izquierdo ------------------------*/
     .mainLogin  .text{
         background: url('../img/hamburguesa.jpg');
@@ -28,7 +116,7 @@
     }
     
     .mainLogin .text .titulo h3{
-        font-size: 50px;
+        font-size: 70px;
         text-align: end;
         font-weight: bolder;    
         letter-spacing: 1px;
@@ -62,7 +150,7 @@
   }
   .mainLogin .contForm .card form button:hover{
     color: #fff;
-    background:  #cb4730;
+    background:  #b4280f;
 
   }
   
@@ -121,15 +209,67 @@
 
 .mainLogin  .contForm .registro a:hover{
     color: #b4280f;
+    text-decoration: underline;
 }
 
 
-@media screen and (max-width: 950px) and (min-width:760px){
+
+
+
+
+
+
+
+  
+  /*
+    ***************************************fin estilos para el login y el registro**************************
+    */
+
+
+
+
+    /*
+    ***************************************estilos del banner de productos**************************
+    */
+  
+    .populares .tituloseccion hr{
+        width: 25%;
+    }
+  
+
+    .contenedorSlideProductos{
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contenedorSlideProductos ul li{
+        list-style: none;
+    }
+    .contenedorSlideProductos ul li .card{
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 5px 10px -4px rgba(125,125,125,1);
+        -moz-box-shadow: 0px 5px 10px -4px rgba(125,125,125,1);
+        box-shadow: 0px 5px 10px -4px rgba(125,125,125,1);
+    }
+    .estrellas .fas{
+        color: yellow;
+    }
+
+     /*
+    ***************************************fin estilos del banner de productos**************************
+    */
+@media screen and (max-width: 940px) and (min-width:728px){
     .mainLogin  .contForm .card .registrame{
         font-size: 28px;
+        
     }
+    .menu nav .logo{
+        font-size: 25px;
+    }
+   
 }
-  @media screen and (max-width: 770px){
+  @media screen and (max-width: 940px){
     .mainLogin  .text{
         width: 100%;
         background: #b4280f;
@@ -164,12 +304,20 @@
         letter-spacing: 1px;
         
   }
+     /*estrilos para la adaptacion del menu de busqueda*/
+     .menu nav .logobusqueda{
+        width: 100%;
+    }
+    
+    .menu nav .logo{
+        text-align: center;
+    }
 
 }
 
 
-@media screen and (max-width: 600px){
-    
+@media screen and (max-width:728px){
+  
     .mainLogin .text .titulo{
         padding: 10px;
     }
@@ -182,4 +330,11 @@
         width: 100%;
         border: none;
     }
+    .menu nav .cuentacarrito div a  img{
+        width: 32px;
+        height: 32px;
+    }
+
+ 
+   
 }
