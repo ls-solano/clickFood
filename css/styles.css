@@ -9,6 +9,7 @@
     }
     .textoPrimario{
         color: #b4280f;
+        
     }
     .bg-primario{
         background: #b4280f;
@@ -34,6 +35,11 @@
     }  
     .cuerpo{
         margin-bottom: 100px;
+    }
+    .sombraBottom{
+        -webkit-box-shadow: 0px 4px 6px 0px rgba(207,205,207,0.98);
+        -moz-box-shadow: 0px 4px 6px 0px rgba(207,205,207,0.98);
+        box-shadow: 0px 4px 6px 0px rgba(207,205,207,0.98);
     }
     /*
     ***************************************estilos para el menu**************************
@@ -92,9 +98,10 @@
     
     .menufijomov div a {
         color: rgb(73, 73, 73);
+        font-size: 16px;
     }
     .menufijomov div a .fas{
-        font-size: 18px;
+        font-size: 16px;
         padding-top: 5px;
     }
    
@@ -227,53 +234,40 @@
 
 
 
-
     /*
-    ***************************************estilos del banner de productos**************************
+    *************************************** estilos para los cards de las categorias**************************
     */
-  
-    .populares .tituloseccion hr{
-        width: 25%;
-    }
-  
-
-    .contenedorSlideProductos{
+    .categorias div div .card{
+        transition: all 0.7s ease;
+        border: none;
  
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        background: rgba(247,215,52,1);
+        background: -moz-linear-gradient(-45deg, rgba(247,215,52,1) 0%, rgba(180,40,15,1) 0%, rgba(180,40,15,0.95) 55%, rgba(234,121,0,0.91) 100%);
+        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(247,215,52,1)), color-stop(0%, rgba(180,40,15,1)), color-stop(55%, rgba(180,40,15,0.95)), color-stop(100%, rgba(234,121,0,0.91)));
+        background: -webkit-linear-gradient(-45deg, rgba(247,215,52,1) 0%, rgba(180,40,15,1) 0%, rgba(180,40,15,0.95) 55%, rgba(234,121,0,0.91) 100%);
+        background: -o-linear-gradient(-45deg, rgba(247,215,52,1) 0%, rgba(180,40,15,1) 0%, rgba(180,40,15,0.95) 55%, rgba(234,121,0,0.91) 100%);
+        background: -ms-linear-gradient(-45deg, rgba(247,215,52,1) 0%, rgba(180,40,15,1) 0%, rgba(180,40,15,0.95) 55%, rgba(234,121,0,0.91) 100%);
+        background: linear-gradient(135deg, rgba(247,215,52,1) 0%, rgba(180,40,15,1) 0%, rgba(180,40,15,0.95) 55%, rgba(234,121,0,0.91) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7d734', endColorstr='#ea7900', GradientType=1 );
+        
+        
+        color: #fff;
+
+        -webkit-box-shadow: 0px 8px 6px 0px rgba(207,205,207,0.98);
+        -moz-box-shadow: 0px 8px 6px 0px rgba(207,205,207,0.98);
+        box-shadow: 0px 8px 6px 0px rgba(207,205,207,0.98);
     }
-    .contenedorSlideProductos ul li{
-        list-style: none;
+    .categorias div div .card:hover{
+        cursor: pointer;
+        top: -1px;
+        -webkit-box-shadow: 0px 14px 6px 0px rgba(207,205,207,0.98);
+        -moz-box-shadow: 0px 14px 6px 0px rgba(207,205,207,0.98);
+        box-shadow: 0px 14px 6px 0px rgba(207,205,207,0.98);
     }
-    .contenedorSlideProductos ul li .card{
-        width: 190px;
-        border-radius: 10px;
-        -webkit-box-shadow: -1px 5px 10px -4px rgba(125,125,125,1);
-        -moz-box-shadow: -1px 5px 10px -4px rgba(125,125,125,1);
-        box-shadow: -1px 5px 10px -4px rgba(125,125,125,1);
-    }
-    
-    .contenedorSlideProductos ul li .card .card-body{
-        padding: 15px 20px 20px 20px;
-    }
-    .contenedorSlideProductos ul li .card .card-body .card-title{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        display: inline-block;
-        width: 100%;
-        text-transform: uppercase;
-        margin:0;    }
-    .calificacion {
-        margin: 0 auto;
-        color: #ea7900
-    }
-    .contenedorSlideProductos ul li .card .card-body a{
-        padding:2px;
-    }
-     /*
-    ***************************************fin estilos del banner de productos**************************
+    /*
+    ***************************************fin estilos para el login y el registro**************************
     */
+
 @media screen and (max-width: 940px) and (min-width:728px){
     .mainLogin  .contForm .card .registrame{
         font-size: 28px;
